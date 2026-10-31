@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import NovelCard from '../../components/NovelCard.astro';
+import { getCollection, render } from 'astro:content';
+import { getNovels, getChaptersFor, countWords, base } from '../../lib/library';
+
+export async function getStaticPaths() {
+  const universes = await getCollection('universes');
+  return universes.map((universe) => ({ params: { slug: universe.id }, props: { universe } }));
+}
+
+const { universe } = Astro.props;
+const { Content } = await render(universe);
+const members = (await getNovels()).filter((n) => n.data.universe === universe.id);
+const items = await Promise.all(
+  members.map(async (novel) => {
+    const chapters = await getChaptersFor(novel.id);
+    return { novel, chapterCount: chapters.length, words: chapters.reduce((s, c) => s + countWords(c.body ?? ''), 0) };
+  }),
+);
+---
+<Base title={universe.data.name}>
+  <main id="main">
+    <div class="crumbs"><a href={base('universes/')}>Universes</a> / {universe.data.name}</div>
+    <section class="hero">
+      <h1>{universe.data.name}</h1>
+      <p>{universe.data.tagline}</p>
+    </section>
+    <div class="prose" style="max-width:42rem;margin-bottom:2rem"><Content /></div>
+    <h2>Books in this universe</h2>
+    <div class="grid">
+      {items.map((i) => <NovelCard {...i} universeName={universe.data.name} />)}
+    </div>
+  </main>
+</Base>

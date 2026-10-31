@@ -1,0 +1,32 @@
+---
+import { base, LEVEL_LABELS, STATUS_LABELS, readingMinutes, type Novel } from '../lib/library';
+interface Props { novel: Novel; words: number; chapterCount: number; universeName?: string }
+const { novel, words, chapterCount, universeName } = Astro.props;
+const d = novel.data;
+const haystack = [d.title, d.tagline, ...d.genres, ...d.tags, universeName ?? '', novel.body ?? ''].join(' ').toLowerCase();
+---
+<article
+  class="card"
+  data-slug={novel.id}
+  data-genres={d.genres.map((g) => g.toLowerCase()).join('|')}
+  data-level={d.contentLevel}
+  data-universe={d.universe ?? 'standalone'}
+  data-status={d.status}
+  data-chapters={chapterCount}
+  data-search={haystack}
+>
+  <div class="meta">
+    {d.genres.map((g) => <span class="pill">{g}</span>)}
+    <span class={`pill level ${d.contentLevel}`} title={LEVEL_LABELS[d.contentLevel].blurb}>{LEVEL_LABELS[d.contentLevel].label}</span>
+  </div>
+  <h3><a href={base(`novels/${novel.id}/`)}>{d.title}</a></h3>
+  <p class="tagline">{d.tagline}</p>
+  <div class="foot">
+    {universeName && <span>Universe: {universeName}</span>}
+    <span>
+      {STATUS_LABELS[d.status]}
+      {chapterCount > 0 && ` · ${chapterCount} chapter${chapterCount === 1 ? '' : 's'} · ${readingMinutes(words)} min read so far`}
+    </span>
+    <div class="bar" role="progressbar" aria-label="Your reading progress" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+  </div>
+</article>

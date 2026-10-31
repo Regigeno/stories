@@ -1,0 +1,97 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { render, getCollection } from 'astro:content';
+import { getNovels, getChaptersFor, chapterSlug, countWords, readingMinutes, base, LEVEL_LABELS, STATUS_LABELS } from '../../../lib/library';
+
+export async function getStaticPaths() {
+  const novels = await getNovels();
+  return novels.map((novel) => ({ params: { slug: novel.id }, props: { novel } }));
+}
+
+const { novel } = Astro.props;
+const d = novel.data;
+const chapters = await getChaptersFor(novel.id);
+const words = chapters.reduce((s, c) => s + countWords(c.body ?? ''), 0);
+const { Content } = await render(novel);
+const universe = d.universe ? (await getCollection('universes')).find((u) => u.id === d.universe) : undefined;
+const first = chapters[0];
+---
+<Base title={d.title} description={d.tagline}>
+  <main id="main">
+    <div class="novel-head">
+      <div class="crumbs"><a href={base('')}>Catalog</a> / {d.title}</div>
+      <h1>{d.title}</h1>
+      <p class="tagline">{d.tagline}</p>
+      <div class="meta">
+        {d.genres.map((g) => <a class="pill" href={base(`?genre=${encodeURIComponent(g.toLowerCase())}`)} style="text-decoration:none">{g}</a>)}
+        <span class={`pill level ${d.contentLevel}`}>{LEVEL_LABELS[d.contentLevel].label}</span>
+        <span class="pill level">{STATUS_LABELS[d.status]}</span>
+        {universe
+          ? <a class="pill level" href={base(`universes/${universe.id}/`)} style="text-decoration:none">Universe: {universe.data.name}</a>
+          : <span class="pill level">Standalone</span>}
+      </div>
+      <div class="actions" id="actions" data-slug={novel.id} data-total={chapters.length}>
+        {first && <a class="btn btn-primary" id="read-btn" href={base(`novels/${novel.id}/${chapterSlug(first)}/`)}>Start reading</a>}
+        {chapters.length > 0 && <a class="btn" href={base(`pdfs/${novel.id}.pdf`)} download>Download PDF</a>}
+      </div>
+    </div>
+
+    <div class="two-col">
+      <section>
+        <div class="prose"><Content /></div>
+        <div class="notice" style="margin-top:1.5rem">
+          <strong>Content level: {LEVEL_LABELS[d.contentLevel].label}.</strong> {LEVEL_LABELS[d.contentLevel].blurb}
+          {d.contentNotes.length > 0 && <ul>{d.contentNotes.map((n) => <li>{n}</li>)}</ul>}
+        </div>
+      </section>
+      <section>
+        <h2 style="margin-top:0">Chapters</h2>
+        {chapters.length === 0
+          ? <p class="notice">No chapters are published yet. This book is {STATUS_LABELS[d.status].toLowerCase()}.</p>
+          : (
+            <>
+              <p class="sub" style="color:var(--muted);font-size:.9rem">
+                {chapters.length} published · {words.toLocaleString()} words · about {readingMinutes(words)} min · target {d.targetWords.toLocaleString()} words
+              </p>
+              <ol class="chapter-list">
+                {chapters.map((c) => (
+                  <li>
+                    <a href={base(`novels/${novel.id}/${chapterSlug(c)}/`)} data-chapter={c.data.number}>
+                      <span class="num">{c.data.number}</span>
+                      <span>{c.data.title}{c.data.status === 'draft' && <span class="badge-draft">draft</span>}</span>
+                      <span class="tick" aria-hidden="true"></span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </>
+          )}
+      </section>
+    </div>
+  </main>
+
+  <script>
+    import { getProgress } from '../../../scripts/progress';
+    const slug = document.getElementById('actions')!.dataset.slug!;
+    const p = getProgress(slug);
+    if (p) {
+      const read = new Set(p.read);
+      const links = [...document.querySelectorAll<HTMLAnchorElement>('.chapter-list a')];
+      links.forEach((a) => {
+        if (read.has(Number(a.dataset.chapter))) a.querySelector('.tick')!.textContent = 'Read';
+      });
+      const btn = document.getElementById('read-btn') as HTMLAnchorElement | null;
+      const idx = links.findIndex((a) => Number(a.dataset.chapter) === p.chapter);
+      if (btn && idx >= 0) {
+        const finished = read.has(p.chapter) && p.scroll >= 0.95;
+        const target = finished && links[idx + 1] ? links[idx + 1] : links[idx];
+        const pct = Math.round(p.scroll * 100);
+        btn.href = target.href;
+        btn.textContent =
+          target === links[idx] && pct > 2 && pct < 95
+            ? `Continue: chapter ${target.dataset.chapter} (${pct}%)`
+            : `Continue: chapter ${target.dataset.chapter}`;
+      }
+    }
+  </script>
+</Base>

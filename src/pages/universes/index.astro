@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { getNovels, base } from '../../lib/library';
+
+const universes = await getCollection('universes');
+const novels = await getNovels();
+---
+<Base title="Universes">
+  <main id="main">
+    <section class="hero">
+      <h1>Universes</h1>
+      <p>Some books stand alone. Others share a world, a timeline, and recurring characters. Browse the shared universes here.</p>
+    </section>
+    {universes.length === 0
+      ? <p class="notice">No shared universes yet.</p>
+      : (
+        <div class="grid">
+          {universes.map((u) => {
+            const members = novels.filter((n) => n.data.universe === u.id);
+            return (
+              <article class="card">
+                <h3><a href={base(`universes/${u.id}/`)}>{u.data.name}</a></h3>
+                <p class="tagline">{u.data.tagline}</p>
+                <div class="foot">{members.length} book{members.length === 1 ? '' : 's'}</div>
+              </article>
+            );
+          })}
+        </div>
+      )}
+  </main>
+</Base>

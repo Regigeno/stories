@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { LEVEL_LABELS } from '../lib/library';
+---
+<Base title="About">
+  <main id="main">
+    <section class="hero"><h1>About the Library</h1></section>
+    <div class="prose" style="max-width:42rem">
+      <p>The Library is a collection of original novels. A human concept developer sets the premise, genre, and tone. An AI writer builds the story bible, outlines the book, and drafts each chapter, with the concept developer reviewing as the book takes shape.</p>
+      <h2>Reading tools</h2>
+      <p>Your reading progress, text size, and theme are saved in your browser only. Nothing is sent to a server. Every book can be downloaded as a PDF from its page.</p>
+      <h2>Content levels</h2>
+      <ul>
+        {Object.values(LEVEL_LABELS).map((l) => <li><strong>{l.label}.</strong> {l.blurb}</li>)}
+      </ul>
+      <p>Each book page lists specific content notes in addition to its level.</p>
+    </div>
+  </main>
+</Base>

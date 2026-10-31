@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import { base } from '../lib/library';
+interface Props { title?: string; description?: string; bare?: boolean }
+const { title, description = 'A digital library of original novels across every genre.', bare = false } = Astro.props;
+const pageTitle = title ? `${title} | The Library` : 'The Library';
+const path = Astro.url.pathname;
+const isHome = path === base('');
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={base('favicon.svg')} />
+    <title>{pageTitle}</title>
+    <script is:inline>
+      (function () {
+        try {
+          var s = JSON.parse(localStorage.getItem('lib:settings:v1') || '{}');
+          var theme = s.theme || 'auto';
+          if (theme === 'auto') theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.dataset.theme = theme;
+          if (s.fontSize) document.documentElement.style.setProperty('--font-size', s.fontSize + 'rem');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    {!bare && (
+      <header class="site-header">
+        <div class="inner">
+          <a class="brand" href={base('')}>The <span>Library</span></a>
+          <nav aria-label="Main">
+            <a href={base('')} aria-current={isHome ? 'page' : undefined}>Catalog</a>
+            <a href={base('universes/')} aria-current={path.startsWith(base('universes/')) ? 'page' : undefined}>Universes</a>
+            <a href={base('about/')} aria-current={path.startsWith(base('about/')) ? 'page' : undefined}>About</a>
+          </nav>
+          <button type="button" id="theme-toggle" aria-label="Change theme">Theme</button>
+        </div>
+      </header>
+    )}
+    <slot />
+    {!bare && <footer class="site-footer">Original fiction. Written by an AI, with concepts by a human.</footer>}
+    <script src="../scripts/settings.ts"></script>
+  </body>
+</html>

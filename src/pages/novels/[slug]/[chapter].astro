@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { getNovels, getChaptersFor, chapterSlug, base } from '../../../lib/library';
+
+export async function getStaticPaths() {
+  const novels = await getNovels();
+  const paths = [];
+  for (const novel of novels) {
+    const chapters = await getChaptersFor(novel.id);
+    chapters.forEach((chapter, i) => {
+      paths.push({
+        params: { slug: novel.id, chapter: chapterSlug(chapter) },
+        props: { novel, chapter, prev: chapters[i - 1], next: chapters[i + 1], total: chapters.length },
+      });
+    });
+  }
+  return paths;
+}
+
+const { novel, chapter, prev, next, total } = Astro.props;
+const { Content } = await render(chapter);
+const href = (c: typeof chapter) => base(`novels/${novel.id}/${chapterSlug(c)}/`);
+---
+<Base title={`${chapter.data.title} | ${novel.data.title}`} bare>
+  <div class="reader-bar">
+    <div class="inner">
+      <div class="title"><a href={base(`novels/${novel.id}/`)}>&larr; {novel.data.title}</a> · Chapter {chapter.data.number} of {total}</div>
+      <div class="controls">
+        <button type="button" data-font="down" aria-label="Smaller text">A-</button>
+        <button type="button" data-font="up" aria-label="Larger text">A+</button>
+        <button type="button" data-theme-toggle>Theme</button>
+      </div>
+    </div>
+    <div class="progress-line" aria-hidden="true"><span id="pl"></span></div>
+  </div>
+
+  <main id="main" data-slug={novel.id} data-number={chapter.data.number}>
+    <article class="reader">
+      <header>
+        <div class="kicker">Chapter {chapter.data.number}</div>
+        <h1>{chapter.data.title}</h1>
+        {chapter.data.status === 'draft' && <p class="draft-note">First draft. This chapter may change after review.</p>}
+      </header>
+      <div class="body" id="body"><Content /></div>
+      <nav class="pager" aria-label="Chapter navigation">
+        {prev ? <a class="btn" href={href(prev)}>&larr; {prev.data.title}</a> : <span></span>}
+        {next
+          ? <a class="btn btn-primary next" href={href(next)}>{next.data.title} &rarr;</a>
+          : <a class="btn next" href={base(`novels/${novel.id}/`)}>Back to book page</a>}
+      </nav>
+    </article>
+  </main>
+
+  <script>
+    import { getProgress, saveProgress } from '../../../scripts/progress';
+    const main = document.getElementById('main')!;
+    const slug = main.dataset.slug!;
+    const number = Number(main.dataset.number);
+    const line = document.getElementById('pl')!;
+
+    const fraction = () => {
+      const max = document.documentElement.scrollHeight - innerHeight;
+      return max <= 0 ? 1 : Math.min(1, Math.max(0, scrollY / max));
+    };
+
+    const prior = getProgress(slug);
+    if (prior && prior.chapter === number && prior.scroll > 0.02 && prior.scroll < 0.95 && !location.hash) {
+      requestAnimationFrame(() => {
+        scrollTo(0, prior.scroll * (document.documentElement.scrollHeight - innerHeight));
+      });
+    } else if (!prior || prior.chapter !== number) {
+      saveProgress(slug, number, 0);
+    }
+
+    let t: number | undefined;
+    addEventListener('scroll', () => {
+      const f = fraction();
+      line.style.width = `${f * 100}%`;
+      clearTimeout(t);
+      t = window.setTimeout(() => saveProgress(slug, number, f), 200);
+    }, { passive: true });
+    addEventListener('pagehide', () => saveProgress(slug, number, fraction()));
+  </script>
+</Base>

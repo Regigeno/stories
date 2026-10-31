@@ -1,0 +1,168 @@
+---
+import Base from '../layouts/Base.astro';
+import NovelCard from '../components/NovelCard.astro';
+import { getCollection } from 'astro:content';
+import { getNovels, getChaptersFor, countWords, LEVEL_LABELS, STATUS_LABELS, base } from '../lib/library';
+
+const novels = await getNovels();
+const universes = await getCollection('universes');
+const universeName = (id?: string) => universes.find((u) => u.id === id)?.data.name;
+
+const items = await Promise.all(
+  novels.map(async (n) => {
+    const chapters = await getChaptersFor(n.id);
+    const words = chapters.reduce((sum, c) => sum + countWords(c.body ?? ''), 0);
+    return { novel: n, words, chapterCount: chapters.length };
+  }),
+);
+
+const genres = [...new Set(novels.flatMap((n) => n.data.genres))].sort();
+const levels = Object.keys(LEVEL_LABELS).filter((l) => novels.some((n) => n.data.contentLevel === l));
+const usedUniverses = [...new Set(novels.map((n) => n.data.universe).filter(Boolean))] as string[];
+---
+<Base>
+  <main id="main">
+    <section class="hero">
+      <h1>The Library</h1>
+      <p>Original novels in every genre, from standalone stories to shared universes. Each book shows a content level so you know what to expect.</p>
+    </section>
+
+    <form class="filters" role="search" id="filters" onsubmit="return false">
+      <label>Search
+        <input type="search" id="q" placeholder="Title, genre, or a line from a chapter" autocomplete="off" />
+      </label>
+      <label>Genre
+        <select id="genre">
+          <option value="">All genres</option>
+          {genres.map((g) => <option value={g.toLowerCase()}>{g}</option>)}
+        </select>
+      </label>
+      <label>Content level
+        <select id="level">
+          <option value="">Any level</option>
+          {levels.map((l) => <option value={l}>{LEVEL_LABELS[l].label}</option>)}
+        </select>
+      </label>
+      <label>Universe
+        <select id="universe">
+          <option value="">All books</option>
+          <option value="standalone">Standalone only</option>
+          {usedUniverses.map((u) => <option value={u}>{universeName(u) ?? u}</option>)}
+        </select>
+      </label>
+      <label>Status
+        <select id="status">
+          <option value="">Any status</option>
+          {Object.entries(STATUS_LABELS).map(([k, v]) => <option value={k}>{v}</option>)}
+        </select>
+      </label>
+    </form>
+
+    <p class="result-count" id="count" aria-live="polite"></p>
+
+    <section class="search-hits" id="hits" aria-label="Matches inside chapters">
+      <h2>Matches inside chapters</h2>
+      <ul id="hit-list"></ul>
+    </section>
+
+    <div class="grid" id="grid">
+      {items.map((i) => <NovelCard {...i} universeName={universeName(i.novel.data.universe)} />)}
+    </div>
+    <p class="empty" id="empty">No books match those filters.</p>
+  </main>
+
+  <script define:vars={{ indexUrl: base('search-index.json'), novelBase: base('novels/') }}>
+    window.__LIB = { indexUrl, novelBase };
+  </script>
+  <script>
+    import { readAll, novelFraction } from '../scripts/progress';
+
+    const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+    const cards = [...document.querySelectorAll<HTMLElement>('.card')];
+    const q = $<HTMLInputElement>('q');
+    const sels = { genre: $<HTMLSelectElement>('genre'), level: $<HTMLSelectElement>('level'), universe: $<HTMLSelectElement>('universe'), status: $<HTMLSelectElement>('status') };
+    const lib = (window as any).__LIB as { indexUrl: string; novelBase: string };
+
+    type Entry = { novel: string; novelTitle: string; chapter: string; number: number; title: string; text: string };
+    let index: Entry[] | null = null;
+    let loading: Promise<void> | null = null;
+    const loadIndex = () => (loading ??= fetch(lib.indexUrl).then((r) => r.json()).then((d) => { index = d; }));
+
+    const params = new URLSearchParams(location.search);
+    q.value = params.get('q') ?? '';
+    (Object.keys(sels) as (keyof typeof sels)[]).forEach((k) => { sels[k].value = params.get(k) ?? ''; });
+
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+    const reEsc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    function snippet(text: string, terms: string[]) {
+      const lower = text.toLowerCase();
+      const pos = Math.min(...terms.map((t) => lower.indexOf(t)).filter((p) => p >= 0));
+      const start = Math.max(0, pos - 70);
+      let out = esc(text.slice(start, pos + 130));
+      terms.forEach((t) => { out = out.replace(new RegExp(reEsc(esc(t)), 'gi'), (m) => `<mark>${m}</mark>`); });
+      return `${start > 0 ? '…' : ''}${out}…`;
+    }
+
+    const matchesFilters = (c: HTMLElement) =>
+      (!sels.genre.value || c.dataset.genres!.split('|').includes(sels.genre.value)) &&
+      (!sels.level.value || c.dataset.level === sels.level.value) &&
+      (!sels.universe.value || c.dataset.universe === sels.universe.value) &&
+      (!sels.status.value || c.dataset.status === sels.status.value);
+
+    const chapterMatches = (terms: string[], allowed: Set<string | undefined>) =>
+      (index ?? []).filter(
+        (e) => allowed.has(e.novel) && terms.every((t) => e.text.toLowerCase().includes(t) || e.title.toLowerCase().includes(t)),
+      );
+
+    function paint(terms: string[], chapterHits: Entry[]) {
+      const withHits = new Set(chapterHits.map((e) => e.novel));
+      let shown = 0;
+      cards.forEach((c) => {
+        const textOk = terms.every((t) => c.dataset.search!.includes(t)) || withHits.has(c.dataset.slug!);
+        c.hidden = !(matchesFilters(c) && textOk);
+        if (!c.hidden) shown++;
+      });
+      $('count').textContent = `${shown} book${shown === 1 ? '' : 's'}`;
+      $('empty').style.display = shown ? 'none' : 'block';
+
+      const list = chapterHits.slice(0, 25);
+      $('hit-list').innerHTML = list
+        .map((e) => `<li><a href="${lib.novelBase}${e.novel}/${e.chapter}/">${esc(e.novelTitle)}: Chapter ${e.number}, ${esc(e.title)}</a><p>${snippet(e.text, terms)}</p></li>`)
+        .join('');
+      $('hits').classList.toggle('on', list.length > 0);
+    }
+
+    function render() {
+      const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+      const next = new URLSearchParams();
+      if (q.value) next.set('q', q.value);
+      (Object.keys(sels) as (keyof typeof sels)[]).forEach((k) => sels[k].value && next.set(k, sels[k].value));
+      history.replaceState(null, '', next.toString() ? `?${next}` : location.pathname);
+
+      const allowed = new Set(cards.filter(matchesFilters).map((c) => c.dataset.slug));
+      paint(terms, index && terms.join('').length >= 3 ? chapterMatches(terms, allowed) : []);
+      if (terms.join('').length >= 3 && !index) {
+        loadIndex().then(() => {
+          if (q.value.toLowerCase().split(/\s+/).filter(Boolean).join(' ') === terms.join(' ')) paint(terms, chapterMatches(terms, allowed));
+        });
+      }
+    }
+
+    let timer: number;
+    q.addEventListener('input', () => { clearTimeout(timer); timer = window.setTimeout(render, 150); });
+    Object.values(sels).forEach((s) => s.addEventListener('change', render));
+
+    const progress = readAll();
+    cards.forEach((c) => {
+      const f = novelFraction(progress[c.dataset.slug!], Number(c.dataset.chapters));
+      if (f > 0) {
+        const bar = c.querySelector<HTMLElement>('.bar')!;
+        bar.classList.add('on');
+        bar.setAttribute('aria-valuenow', String(Math.round(f * 100)));
+        (bar.firstElementChild as HTMLElement).style.width = `${Math.round(f * 100)}%`;
+      }
+    });
+    render();
+  </script>
+</Base>
