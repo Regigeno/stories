@@ -31,7 +31,7 @@
 
 - **Sublevel 1:** Reception, labs, and offices.
 - **Sublevel 2:** Incubation and nursery.
-- **Sublevel 3:** Large paddocks, cooling plant, and control room.
+- **Sublevel 3:** Large paddocks and control room, about 60 feet below the zoo. The cooling plant is on the Reptile House roof.
 - **The Ring access:** Sealed hatches connect the paddocks to the zoo's Ring for moving animals to a loading dock. Several hatches were never fully blocked from the zoo side.
 - **Sublevel 5:** Not on any floor plan the staff received. Its lift key is held by Warren Teague alone.
 
@@ -39,10 +39,10 @@ The program's stated mandate is the Cretaceous. "Cretaceous" spans about eighty 
 
 ## The breach
 
-1. A new rooftop cooling plant went online two weeks ago to impress an investor. It draws on the same power loop as paddock door controllers.
+1. A new rooftop cooling plant went online two weeks ago to impress an investor. It draws on the same power loop (the B loop) as the paddock door controllers, and that loop shares a feeder with the zoo's north hill (Taiga Trail and the Reptile House).
 2. On the investor demonstration day (a Saturday, chosen because crowds help hide traffic), the cooling plant trips and sheds load. Door controllers revert to their **fail-open default** because Meridian's safety engineer was overruled when she asked for fail-closed.
 3. Eleven animals get into the Ring. Several more leave the sublevels through hatches into the zoo's night houses.
-4. Warren Teague orders a **site-seal**: the lab's exterior doors and the zoo gates' remote locks are closed "to contain the problem" and no alert goes to the zoo for 26 minutes, because an evacuation would end the program.
+4. Warren Teague orders a **site-seal** at 1:53 p.m.: the lab's exterior doors and the zoo gates' remote locks are closed, the exterior jammers go up (killing cell service across the zoo), and no alert goes to the zoo for 26 minutes, because an evacuation would end the program. Calloway defies Teague and takes Vale up the east stair.
 
 ## The animals
 
@@ -109,7 +109,7 @@ Zoo director. Knows nothing about the lab. Learns too late.
 - Dinosaurs are real animals with real limits: they tire, they bleed, they can be hurt by large zoo animals.
 - Zoo animals are not helpless: an elephant matriarch is a six-ton animal that has defended a family for forty years.
 - The lab's sedative ("**Lullaby**", a long-acting tranquilizer designed for large theropods) works but needs time and volume.
-- Cell and radio coverage on the site is poor, and the lab's jammer (installed to guard secrecy) is stuck on. Keeper radios work on a zoo-only channel.
+- Cell service is dead from 1:53 p.m. because Teague's site-seal switches on the lab's exterior jammers. Keeper radios work on a zoo-only channel.
 - Dusk is at 6:10 p.m. The book covers about 17 hours.
 
 ## Themes
