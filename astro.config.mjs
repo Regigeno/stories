@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'http://localhost:4321',
+  site:
+    process.env.SITE_URL ||
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:4321'),
   base: process.env.BASE_PATH || '/',
   trailingSlash: 'always',
   build: { format: 'directory' },

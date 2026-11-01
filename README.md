@@ -44,4 +44,10 @@ Create `universes/<slug>/universe.md` with `name` and `tagline` in the front mat
 
 ## Deploy
 
+### Vercel
+
+Import the repository at vercel.com/new. The Astro preset is detected automatically (build command `npm run build`, output directory `dist`). No environment variables are needed, and every push to `main` redeploys. The site is served from the domain root, so leave `BASE_PATH` unset.
+
+### GitHub Pages
+
 Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages. In the repository settings, set **Pages > Source** to **GitHub Actions** once.
