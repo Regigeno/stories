@@ -4,40 +4,51 @@
 **Writer:** AI
 **Genre:** Science-fiction thriller / creature horror
 **Content level:** Mature 16+
-**Length:** about 40,000 words, 18 chapters of at least 2,000 words each
+**Length:** about 40,000 words (the draft is running long, so expect 42,000 to 48,000), 18 chapters of at least 2,000 words each
+**Tone mandate:** Brutal and merciless. Only one to three people in the cast survive.
 
 ## Original pitch
 
-When traveling to the zoo to see some animals, a secret lab underneath the zoo conducting research on reviving Cretaceous dinosaurs has a containment breach and all Hell breaks loose upon the zoo. There could be multiple main characters trapped with zoo exhibits. For example, one theater is the lion pride and elephant matriarch against a Tyrannosaurus, another is the velociraptors wandering in a Siberian tiger enclosure, and the other could be a Spinosaurus that gets ambushed by crocs and hippos. Some other minor theaters could be a frantic, confused Brontosaurus (even though this was a late Jurassic dinosaur) against an aggressive male giraffe or a grown polar bear against a Utahraptor.
+When traveling to the zoo to see some animals, a secret lab underneath the zoo conducting research on reviving Cretaceous dinosaurs has a containment breach and all Hell breaks loose upon the zoo. There could be multiple main characters trapped with zoo exhibits. For example, one theater is the lion pride and elephant matriarch against a Tyrannosaurus, another is a predator wandering into a Siberian tiger enclosure, and the other could be a Spinosaurus that gets ambushed by crocs and hippos. Some other minor theaters could be a frantic, confused Brontosaurus (even though this was a late Jurassic dinosaur) against an aggressive male giraffe.
 
 ## Logline
 
-On a crowded Saturday afternoon, a secret dinosaur lab beneath a city zoo loses containment, and the zoo's own animals and a handful of strangers have to survive until dark.
+On a crowded Saturday afternoon, a secret dinosaur lab beneath a city zoo loses containment. The gates are locked, the phones are dead, and the people inside have until dark.
 
 ## Central question
 
 What do people owe the animals, and each other, when the thing that is hunting them was made by someone who decided the crowd upstairs was an acceptable risk?
 
-## Shape of the book
+## The five theaters
 
-Four "theaters" run in parallel and then collide:
+| Theater | Fight | Human lens |
+|---|---|---|
+| Savanna | Duchess (*Tyrannosaurus*) vs. Imani the elephant matriarch and the lion pride | Mags Delacroix and Gerry Ames |
+| Lagoon | Spinosaurus vs. the lagoon (hippos and crocodiles) | Theo Lindqvist |
+| Taiga | Jazz (*Utahraptor*) vs. Katya the tigress | Priya Raman, Arjun Raman, and Eddie Marsh |
+| Giraffe Overlook | Atlas (runt adult *Brontosaurus*) vs. Kofi the giraffe | Dr. Imogen Vale and Dr. Tamsin Ode |
+| Underground | Calloway vs. Teague | Dale Calloway, with Bao Tran |
 
-| Theater | Setting | Conflict | Human lens |
-|---|---|---|---|
-| Savanna | African Plains exhibit | Lion pride and elephant matriarch against a Tyrannosaurus | Mags Delacroix, elephant keeper |
-| Taiga | Siberian tiger exhibit and glass tunnel | Velociraptor pack against Amur tigers | Priya Raman, 17, and her brother Arjun |
-| Lagoon | Hippo and crocodile lagoon, boat ride | Spinosaurus against crocodiles and hippos | Theo Lindqvist, boat pilot |
-| Underground | The lab beneath the zoo | Containment, cover-up, evacuation | Dr. Imogen Vale, project lead |
+The Velociraptor pack and the polar bear vs. Utahraptor fight were cut. Nanuq the polar bear remains in the zoo as background only.
 
-Minor theaters, told through short animal-focused chapters:
+## The climax: Feeding Hour
 
-- A confused juvenile Brontosaurus against Kofi, the aggressive male giraffe.
-- Nanuq, a grown male polar bear, against a Utahraptor.
+Duchess vs. Spinosaurus is rejected as too predictable. Instead, the book ends on the one thing every animal in the lab shares: they were conditioned to a **feed tone** that sounds in every paddock at 6:00 p.m. Teague wants to sound it to bring his "assets" home. Calloway realizes the same tone can drag every dinosaur to the same place at the same time, and that the lab's own demolition charges can then bury them there. Everyone else is caught in the path of the recall at dusk.
 
 ## Notes on the Brontosaurus
 
-The brief points out that Brontosaurus is Late Jurassic. We keep that and make it a story point. The lab's mandate is the Cretaceous, but the lab's first successful proof-of-concept animal was a sauropod grown from a Jurassic sample. It was kept as "the pet" and was never supposed to leave the sublevels.
+Brontosaurus is Late Jurassic. We keep that and make it a story point. The lab's mandate is the Cretaceous, but its first success was a sauropod grown from a Jurassic sample that was consumed in making him. There is no second sample, so **Atlas is the only living source of Jurassic genetic material**, which is why Imogen chases him. He is a runt adult (about 20 feet, under 2 tons), small enough that Kofi can fight him.
+
+## Ending
+
+All the dinosaurs die. Almost everyone else does too. The final image is a cryogenic case holding **Smilodon** embryos from a sublevel that was never on any plan, which hints at a sequel.
+
+## Survivors
+
+- **Arjun Raman:** guaranteed. If only one person survives, it is him.
+- **Priya Raman:** survives if there are at least two.
+- **Imogen Vale:** the third possible survivor, and the one who makes the book's hardest choice.
 
 ## Universe potential
 
-The book is standalone but ends with a hook (an unlisted fifth sublevel) so the Meridian Biologics program can seed a shared universe later.
+The book is standalone, but the hidden fifth sublevel and the Smilodon embryos leave room for a shared universe about Meridian Biologics.
