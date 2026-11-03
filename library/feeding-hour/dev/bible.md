@@ -59,6 +59,8 @@ The program's stated mandate is the Cretaceous. "Cretaceous" spans about eighty 
 ### Zoo animals
 
 - **Imani:** African elephant matriarch, 41, about 6 tons. Calm, protective, deeply bonded to Mags.
+- **Zola:** Imani's daughter, 22. Big and uncertain, protective of her calf.
+- **Pip:** Zola's calf, 4. Curious and small enough to be in real danger.
 - **Zuberi:** Male African lion, 9. Scarred, tired, and vigilant.
 - **Amara and Sabi:** Lionesses who do most of the hunting.
 - **Kito:** Zuberi's 3-year-old son, impulsive.
@@ -100,6 +102,15 @@ Vice president of operations at Meridian. Smooth, calm, and unwavering. He belie
 
 ### Dale Calloway, 44
 Meridian head of security. Ex-military. Follows orders until the orders are plainly wrong.
+
+### Gerry Ames, 73
+Volunteer, retired railroad signalman. Narrow, quiet, and easy to overlook, with a steel tally clicker he uses constantly. He knows the old rail yard the zoo is built on, including the roundhouse turntable pit under the elephant barn and a service cut that runs under the hill. A stealth character who matters more than anyone notices.
+
+### Carla, educator
+Green-uniformed zoo educator who gives talks on the Plains. Cheerful, steady with groups.
+
+### Bev, Ops dispatcher
+Runs the zoo's operations desk and the keeper radio channels.
 
 ### Hugh Ashworth, 61
 Zoo director. Knows nothing about the lab. Learns too late.

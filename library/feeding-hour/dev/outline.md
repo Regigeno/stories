@@ -10,8 +10,8 @@ Priya and Arjun arrive for his ninth birthday. Small world details seed the myst
 **2. Fail-Open** (Vale, 1:10 p.m.) [DRAFTED]
 Underground. The investor demonstration begins and the cooling plant trips. Vale's safety warning about fail-open doors comes true. Teague orders the site-seal and refuses to alert the zoo. Calloway defies him and takes Vale toward the east stair. R-1 reaches the elephant barn hatch at 1:55.
 
-**3. Old Girl** (Mags, 1:55 p.m.)
-Imani senses the vibrations before anyone else. The elephant barn's hatch buckles. R-1 climbs out of the barn and onto the Plains. The lions go silent. The crowd at the moat railing does not understand what it is looking at.
+**3. Old Girl** (Mags, 1:54 p.m.) [DRAFTED]
+Mags hears the hatch being forced and hides in the feed room while R-1 passes within feet of her and nearly finds her. Imani's trumpet draws R-1 out. R-1 steps into the sun with no kill yet. Gerry herds the crowd. Imani plants herself between R-1 and the people, Zola and Pip behind her, and the lions come down off the kopje. Ops (Bev) reports the zoo gates have locked themselves.
 
 **4. The Okavango Run** (Theo, 2:00 p.m.)
 The boat tour. The hippos behave strangely. Something large moves in the culvert. S-1's sail breaks the surface. The boat takes a hit.
