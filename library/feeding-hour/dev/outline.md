@@ -24,7 +24,7 @@ The tunnel is dark and Eddie is keeping 30 people calm. The green steel door in 
 ## Act II: Theaters (Chapters 6 to 14)
 
 **6. The Pride** (animal chapter: Zuberi, Sabi, Imani, 2:07 p.m.)
-The lions and the elephant meet Duchess on the open Plains. The pride tries to test and flank her, and Duchess kills them methodically. Zuberi dies. Amara tears out Duchess's right eye before she dies. Imani sets a tusk into Duchess's flank but is crushed and mortally wounded. Zola and Pip run for the barn. Duchess limps off toward the central plaza.
+The lions and the elephant meet Duchess on the open Plains. The pride tries to test and flank her, and Duchess kills them methodically. Zuberi dies. Amara tears out Duchess's right eye before she dies. Imani sets a tusk into Duchess's flank but is crushed and mortally wounded. Zola and Pip retreat into the wrecked barn. Duchess limps off toward the central plaza.
 
 **7. Gideon's Water** (Theo, 2:12 p.m.)
 The boat is caught between the Spinosaurus, Old Nile and the crocodiles, and the bull hippo. Rosalind triages in the middle of it. Jess goes into the water and Rosalind goes after her. Theo steers into the narrows. Six of the eleven passengers die. Five reach the pier.
@@ -36,7 +36,7 @@ Katya and Jazz fight in the yard. Eddie gets Priya, Arjun, and six others into t
 Imogen climbs out of a maintenance hatch near the Giraffe Overlook, tracking Atlas by his collar. Dr. Ode has a dart rifle and six frightened visitors on the platform. Atlas has wandered into Kofi's paddock and Kofi is attacking. Imogen runs in to protect Atlas. Ode darts Kofi. Atlas panics and swings his tail, killing Kofi and sweeping Dr. Ode off the platform. Imogen is left with Ode's radio and rifle, and Atlas.
 
 **10. Dead Air** (Calloway, 2:40 p.m.)
-Calloway comes back down from the east stair. Bao is still in the control room, under guard by Teague's deputy, Ruiz. Calloway takes the room, and he and Bao break the jammer on the keeper radio channel. The zoo hears the first real warning. Teague fights back, and Calloway learns about Sublevel 5 and the Ash Protocol.
+Calloway comes back down from the east stair. Bao is still in the control room, under guard by Teague's deputy, Ruiz. Calloway takes the room, and he and Bao patch the lab's paging system into the keeper radio channel and tell the zoo the truth: what is loose, where it came from, and that the gates are locked on purpose. Teague fights back, and Calloway learns about Sublevel 5 and the Ash Protocol.
 
 **11. Imani** (Mags, 2:55 p.m.)
 In the barn, Imani is dying, with Zola and Pip close. Mags hears Calloway's broadcast on the keeper channel. Bev's radio goes silent. Gerry reveals the rail cut under the turntable pit. Mags, Gerry, and about 40 visitors form a plan. Imani dies.
@@ -94,7 +94,7 @@ Imogen follows Atlas below as the tone sounds. Spino, Duchess, Jazz, and Atlas c
 - Times in chapter headers must be consistent with the timeline above.
 - Four free dinosaurs only: Duchess, Spino, Jazz, Atlas.
 - The feed tone sounds at 18:00 and runs on its own battery.
-- Cell service is dead from 1:53 p.m. and the jammers also block the keeper channel until Chapter 10.
+- Cell service is dead from 1:53 p.m. Keeper radios work throughout, but nobody on them knows what is happening until Chapter 10.
 - Duchess loses her right eye in Chapter 6.
 - Jazz loses an eye in Chapter 8, so by Chapter 13 she is half-blind.
 - The gates stay locked until the power dies in Chapter 18.

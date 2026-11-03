@@ -21,7 +21,7 @@
 - **Main Gate and Carousel Court:** the central plaza, with the carousel, food court, and education center.
 - **African Plains:** a large open yard with a dry moat, a lion kopje (rock pile), and an elephant barn.
 - **Okavango Lagoon:** a big water exhibit with hippos and Nile crocodiles, a boat ride (Hippo Harbor Cruises), a pier, and a viewing deck.
-- **Taiga Trail:** wooded Amur tiger exhibit with a glass tunnel that runs through it, a glass roof, and a keepers' building on the north side. A green steel door in the yard wall leads to the Ring.
+- **Taiga Trail:** wooded Amur tiger exhibit with a glass tunnel that runs through it, a glass roof, and a keepers' building on the north side. A green steel door in the yard wall, half hidden in the ferns, is the old pump-room door and leads straight to the Ring. It is separate from the night house, where Katya's cubs are shut in.
 - **Giraffe Overlook:** a tall feeding platform and a large paddock next to the Plains.
 - **Arctic Coast:** polar bear exhibit with a deep pool. Background only.
 - **The Reptile House:** closed for two years for "renovation". It sits above the lab's service lift and has the new rooftop cooling plant.
@@ -50,7 +50,7 @@
 2. On the investor demonstration day (a Saturday, chosen because crowds help hide traffic), the cooling plant trips and sheds load at 1:51 p.m. Door controllers revert to their **fail-open default** because Meridian's safety engineer (Bao Tran) was overruled when he asked for fail-closed (Request for Change 114).
 3. Four dinosaurs get out: Duchess, Spino, Jazz, and Atlas. Others remain in sublevel paddocks or hatchery rooms.
 4. Warren Teague orders a **site-seal** at 1:53 p.m.: the lab's exterior doors and the zoo gates' remote locks are closed, the exterior jammers go up (killing cell service across the zoo), and no alert goes to the zoo. Calloway defies Teague and goes up the east stair with Imogen.
-5. The zoo hears its first real warning at about 2:40 p.m., when Calloway and Bao punch a message through to the keeper radio channel (Chapter 10).
+5. The zoo hears the truth at about 2:40 p.m., when Calloway and Bao patch the lab's paging system into the keeper radio channel and broadcast what is loose, where it came from, and that the gates are locked on purpose (Chapter 10).
 
 ## The animals
 
@@ -60,7 +60,7 @@
 |---|---|---|
 | **R-1 ("Duchess")** | *Tyrannosaurus rex* | About 40 ft, 8 tons. Raised in isolation. Big, hungry, wary, and quiet on her feet. Female. Silent and methodical rather than roaring. |
 | **S-1 ("Barge")** | *Spinosaurus aegyptiacus* | About 45 ft, semi-aquatic hunter. Drawn to water. Enters the lagoon through the drain culvert. |
-| **U-2 ("Jazz")** | *Utahraptor ostrommaysorum* | About 20 ft, about 1,000 lb, feathered. A solitary ambush hunter, smart and unpredictable. Named Jazz because she never hit the same note twice. Female. |
+| **U-2 ("Jazz")** | *Utahraptor ostrommaysorum* | About 20 ft, about 1,000 lb, feathered. A solitary ambush hunter, smart and unpredictable. Named Jazz because she never hit the same note twice. Female. Killed a technician in March, which Meridian covered up. |
 | **J-1 ("Atlas")** | *Brontosaurus excelsus* | A runt adult, about 20 ft and under 2 tons. Late Jurassic, not Cretaceous. The program's first success, kept as a pet. Gentle but easily spooked. **The only Jurassic specimen: the original sample was consumed in making him.** |
 
 ### Zoo animals
@@ -122,6 +122,9 @@ Meridian head of security. Ex-military. Follows orders until the orders are plai
 ### Bao Tran, 31
 Safety engineer. Wrote Request for Change 114 (fail-closed doors) four times. Scared of the building and the first to say so. Stays with Calloway as the person who can make the systems do what they need.
 
+### Ruiz
+Meridian deputy security chief. Loyal to Teague and the chain of command. Guards the control room.
+
 ### Hugh Ashworth, 61
 Zoo director. Knows nothing about the lab. Learns too late.
 
@@ -132,7 +135,7 @@ Investors held in the Sublevel One lounge by the site-seal.
 
 - Dinosaurs are real animals with real limits: they tire, they bleed, they can be hurt by large zoo animals.
 - Zoo animals are not helpless: an elephant matriarch is a six-ton animal that has defended a family for forty years.
-- Cell service is dead from 1:53 p.m. because the site-seal switches on the exterior jammers. Keeper radios work on a zoo-only channel. The lab's jammers also block that channel until Chapter 10.
+- Cell service is dead from 1:53 p.m. because the site-seal switches on the exterior jammers. Keeper radios still work on the zoo-only channel (Bev and Mags talk in Chapter 3), so zoo staff know something is wrong but not what. Nobody can reach the outside world.
 - The zoo gates stay locked by remote until the end of the book. The rail cut is the only way out.
 - The feed tone sounds at 18:00. Dusk is at 6:10 p.m.
 - All four free dinosaurs die. So does nearly every named person.
