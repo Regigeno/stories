@@ -15,8 +15,8 @@ The investor demo. The cooling plant trips, the doors fail open, and Teague orde
 **3. Old Girl** (Mags, 1:54 p.m.) [DRAFTED]
 Mags hides in the feed room as Duchess breaks through and nearly finds her. Imani's trumpet draws Duchess outside. Duchess steps into the sun with no kill yet. Gerry herds the crowd. Imani plants herself between Duchess and the people, and the lions come down off the kopje.
 
-**4. The Okavango Run** (Theo, 2:00 p.m.)
-Hippo Harbor Cruises with eleven passengers, including Rosalind and her daughter Jess. Theo feels the water tremble through the hull before anyone hears anything. The hippos stop grazing and face the culvert. The solitary crocodiles each slip away from their own stretch of shore. The Spinosaurus enters the lagoon from the drain culvert, sail first, and the boat takes a hit. Phones are dead, so Theo cannot call anyone.
+**4. The Okavango Run** (Theo, 1:58 p.m.) [DRAFTED]
+Hippo Harbor Cruises with eleven passengers, including Rosalind and her daughter Jess. Theo feels the water tremble through the hull before anyone hears anything. The hippos stop grazing and face the culvert. The solitary crocodiles each slip away from their own stretch of shore. The Spinosaurus enters the lagoon from the drain culvert, sail first, and kills the first crocodile, a young female, within sight of the boat. Old Nile flees overland. Spino cuts across the bow and its tail sweep flips the boat, throwing all eleven passengers into the lagoon, including Jess. Phones are dead, but the keeper radio works and Bev has just told every staff member to bring visitors to the center. Phones are dead, so Theo cannot call anyone.
 
 **5. Glass** (Priya, 2:04 p.m.)
 The tunnel is dark and Eddie is keeping 30 people calm. The green steel door in the yard bursts and Jazz enters. Katya meets her. Jazz leaps onto the glass roof and it fails. The first human kill in the book happens in the tunnel (the woman with the coffee cup from chapter 1). Arjun names the animal. Eddie opens the keeper door.
@@ -47,13 +47,13 @@ The five survivors are on the pier. Spino, with the crocodiles gone, turns towar
 **13. The Quiet Ring** (Priya, 3:50 p.m.)
 In the Ring, Priya and Arjun find the elephant barn's open hatch and Mags's group coming down into it. Gerry shows Arjun the turntable. Jazz, half-blind, follows their scent. Three people die in a short, ugly fight. The rail cut's far gate is jammed and needs time and tools. The group will wait out the afternoon in the pit.
 
-**14. The Handler** (Imogen, 4:30 p.m.)
-Imogen has hidden Atlas in the ruined Reptile House. She reaches Bao on the lab channel and learns about the 18:00 feed tone and what Teague plans to do with it. She realizes Atlas will walk home to his death at six. She decides to go back below.
+**14. The Handler** (Imogen, 4:30 p.m.) [DRAFTED]
+Imogen has hidden Atlas in the ruined Reptile House. Atlas is hurt (a bruise and dried blood on his left flank from Kofi) and Imogen has three cracked ribs. Ode's radio and the slate are with her. She feels Duchess's infrasonic call through the floor, and Atlas answers it. Bao reaches her on the keeper channel and explains the hardwired 18:00 tone, including the infrasound layer Imogen designed years ago. Teague has told Calloway the animals will recall themselves at six and only need to be met at the doors. Imogen decides to go below to get to the control room and change or stop the tone. She seals Atlas in the Reptile House main hall behind the lift hall doors and promises to come back, which she knows is a lie. Bao opens the freight lift for her at 4:58.
 
 ## Act III: Feeding Hour (Chapters 15 to 18)
 
 **15. Feeding Hour** (Calloway, 5:30 p.m.)
-Calloway and Teague, with two opposite plans for the tone. Teague wants to bring every animal home and recapture them. Calloway wants to let them come, and then bring the hill down. Bao dies. Calloway forces Teague's abort code and arms the Ash Protocol, with the collapse timed after the tone. Teague escapes up the Sublevel 5 lift with a cryogenic case. Calloway, badly wounded, stays at the console.
+Imogen arrives from the freight lift at the start of the chapter, planning to alter the tone, and has to be talked out of it. Calloway and Teague, with two opposite plans for the tone. Teague wants to bring every animal home and recapture them. Calloway wants to let them come, and then bring the hill down. Bao dies, giving Imogen the abort code with his last words. Calloway forces Teague's code and arms the Ash Protocol, with the collapse timed after the tone. Teague escapes up the Sublevel 5 lift with a cryogenic case. Calloway, badly wounded, stays at the console.
 
 **16. Turntable** (Mags, 5:55 p.m.)
 The tone begins. Duchess, half-blind, turns for home, and her home runs through the elephant barn. Mags holds the barn door against Duchess with Zola so the group can drop into the pit. Mags and Zola die. Gerry takes the group into the rail cut.
@@ -62,7 +62,7 @@ The tone begins. Duchess, half-blind, turns for home, and her home runs through 
 In the rail cut, Gerry leads Priya, Arjun, and about twenty people toward the harbor gate. The tone calls Jazz down the Ring, and the Ring crosses the cut. Gerry sacrifices himself to hold the old signal door. Most of the group dies. Priya and Arjun reach the harbor fence as the first charges go off behind them.
 
 **18. Ash** (Imogen, 6:05 p.m. to dawn)
-Imogen follows Atlas below as the tone sounds. Spino, Duchess, Jazz, and Atlas converge on Paddock Three. Imogen has the abort code from Bao and the chance to stop the collapse, which would save Atlas and let the others live. She chooses not to. The hill comes down. Every dinosaur dies. The power failure opens the gates, as fail-open doors do. At dawn Imogen climbs from the vent shaft and finds Teague, dead, with a cryogenic case marked SMILODON. She takes it. Priya and Arjun watch the sun rise from the harbor fence, alive. Last image: the case.
+Imogen is below, in the control room. Atlas breaks the lift hall bar at six and comes down the freight lift following the tone. Spino, Duchess, Jazz, and Atlas converge on Paddock Three. Imogen has the abort code from Bao and the chance to stop the collapse, which would save Atlas and let the others live. She chooses not to. The hill comes down. Every dinosaur dies. The power failure opens the gates, as fail-open doors do. At dawn Imogen climbs from the vent shaft and finds Teague, dead, with a cryogenic case marked SMILODON. She takes it. Priya and Arjun watch the sun rise from the harbor fence, alive. Last image: the case.
 
 ## Fates
 
@@ -103,3 +103,8 @@ Imogen follows Atlas below as the tone sounds. Spino, Duchess, Jazz, and Atlas c
 - Jazz loses an eye in Chapter 8, so by Chapter 13 she is half-blind.
 - The gates stay locked until the power dies in Chapter 18.
 - Atlas is about 20 feet and under 2 tons.
+- Chapter 9 must establish: Imogen gets three cracked ribs from the Kofi fight; Atlas is bruised and bloodied on his left flank; Ode dies when Atlas's tail sweeps her and the rail off the platform; Imogen takes Ode's radio, dart rifle, and keeps the slate; she hides Atlas in the Reptile House after a chiller fire burned half its roof.
+- Chapter 10 must establish: Ruiz and the other guards are locked on Sublevel One with the investors; Calloway is hurt; Bao and Calloway hold the control room; Teague has gone below to Sublevel Five.
+- Chapter 8 must establish: Jazz has one working eye and a ruined shoulder.
+- Chapter 12 ends with Spino heading inland; by 4:30 Spino is crossing the lawns toward the center and Duchess has sat in the middle of the Carousel Court for about 40 minutes.
+- The Reptile House has a freight lift (C loop, not the B loop) that goes 60 feet down to Sublevel Three.
