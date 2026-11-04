@@ -24,12 +24,16 @@ What do people owe the animals, and each other, when the thing that is hunting t
 | Theater | Fight | Human lens |
 |---|---|---|
 | Savanna | Duchess (*Tyrannosaurus*) vs. Imani the elephant matriarch and the lion pride | Mags Delacroix and Gerry Ames |
-| Lagoon | Spinosaurus vs. the lagoon (hippos and crocodiles) | Theo Lindqvist |
+| Lagoon | Spinosaurus vs. the lagoon: it picks off the solitary crocodiles one by one, then is overwhelmed by a bloat of five hippos and walks away in a messy triumph | Theo Lindqvist |
 | Taiga | Jazz (*Utahraptor*) vs. Katya the tigress | Priya Raman, Arjun Raman, and Eddie Marsh |
 | Giraffe Overlook | Atlas (runt adult *Brontosaurus*) vs. Kofi the giraffe | Dr. Imogen Vale and Dr. Tamsin Ode |
 | Underground | Calloway vs. Teague | Dale Calloway, with Bao Tran |
 
 The Velociraptor pack and the polar bear vs. Utahraptor fight were cut. Nanuq the polar bear remains in the zoo as background only.
+
+## Scientific accuracy
+
+The dinosaurs are kept as close to current science as possible, which is why the Velociraptor pack was cut. Big animals communicate in low and infrasonic frequencies, so characters **feel the sound before they hear it**. Crocodiles are solitary and territorial and never cooperate with the hippos.
 
 ## The climax: Feeding Hour
 

@@ -184,7 +184,7 @@ She stood all at once, without stretching, which Priya had a feeling was not som
 
 "Okay," Eddie said softly, to nobody. "Okay, Katya. What is it?"
 
-From somewhere deep under the hill, beyond the glass and the grass and the pretzel and the paper-cut sky, something enormous gave a long, low groan, as if the earth itself had finally been asked a question it did not want to answer.
+Priya felt it before she heard it. It came up through the rubber floor and into her breastbone, a pressure too slow and too low to be called a note, the way a bass drum reaches you from a street away. The glass of the tunnel hummed against her shoulder. Her back teeth ached. Beside her a little boy put both hands flat on his chest, puzzled, as if he had swallowed something. Only then, half a second late, did the sound arrive for her ears: a long, low groan from somewhere deep under the hill, as if the earth itself had finally been asked a question it did not want to answer.
 
 Then the lights in the tunnel went out.
 

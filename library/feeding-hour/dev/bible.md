@@ -5,6 +5,8 @@
 - **Voice:** Close third person, past tense. One point of view per chapter.
 - **Tone:** Tense, grounded, and merciless. Dread first, spectacle second. Dry humor from people under stress is welcome, but it never softens the stakes. Nobody is safe because we like them.
 - **Prose:** Concrete and physical. Name the sound, the smell, the weight. Avoid long stretches of explanation during action.
+- **Scientific accuracy:** Keep the dinosaurs as close to current science as the story allows. That is why there is no Velociraptor pack. Theropods are feathered. Nothing hunts in cooperative packs unless the evidence supports it. Spinosaurus is a semi-aquatic fish-hunter with a paddle tail and is awkward on land. No dinosaur roars like a movie lion.
+- **Sound is felt before it is heard.** Large dinosaurs, like elephants and crocodilians, communicate in low and infrasonic frequencies, with closed-mouth booms and rumbles. Characters feel it in the breastbone, teeth, floor, and water first, and the audible sound arrives a half-second behind. Animals sense it before people do. Use this for every large animal.
 - **Dinosaurs as animals:** No monsters. They behave like animals: hungry, frightened, territorial, and confused by being in the wrong place and time. Theropods are feathered where the science supports it. No cinematic roaring on demand.
 - **Animal chapters:** Close third on the animal, with no dialogue and no human thoughts. The animal perceives through scent, sound, vibration, and memory. No anthropomorphic speeches.
 - **Chapter device:** Every chapter opens with an italic line giving the day and time ("*Saturday, 1:12 p.m.*"). The book runs from early afternoon to the following dawn.
@@ -20,7 +22,7 @@
 
 - **Main Gate and Carousel Court:** the central plaza, with the carousel, food court, and education center.
 - **African Plains:** a large open yard with a dry moat, a lion kopje (rock pile), and an elephant barn.
-- **Okavango Lagoon:** a big water exhibit with hippos and Nile crocodiles, a boat ride (Hippo Harbor Cruises), a pier, and a viewing deck.
+- **Okavango Lagoon:** a big water exhibit with a bloat of five hippos and eight Nile crocodiles, a boat ride (Hippo Harbor Cruises), a pier, and a viewing deck. The crocodiles are solitary and territorial and each holds its own stretch of shore. They do not cooperate with each other or with the hippos.
 - **Taiga Trail:** wooded Amur tiger exhibit with a glass tunnel that runs through it, a glass roof, and a keepers' building on the north side. A green steel door in the yard wall, half hidden in the ferns, is the old pump-room door and leads straight to the Ring. It is separate from the night house, where Katya's cubs are shut in.
 - **Giraffe Overlook:** a tall feeding platform and a large paddock next to the Plains.
 - **Arctic Coast:** polar bear exhibit with a deep pool. Background only.
@@ -40,7 +42,7 @@
 
 **The program's mandate** is the Cretaceous. "Cretaceous" spans about eighty million years, so the staff joke constantly that Halcyon is a zoo of animals that never met each other.
 
-**The feed tone.** Every animal in the lab has been fed to a tone sounded in each paddock at 18:00 every day since hatching. It is a low two-note bell broadcast on the paddock and Ring speakers, on its own battery backup, and it is in Bao's schedule on the control-room wall. The animals are conditioned to come to it. Teague plans to sound it to recall them. Calloway plans to use the same tone to draw every dinosaur to one place.
+**The feed tone.** Every animal in the lab has been fed to a tone sounded in each paddock at 18:00 every day since hatching. It is a low two-note bell with an infrasonic layer under it that the animals feel in their bodies, broadcast on the paddock and Ring speakers, on its own battery backup, and it is in Bao's schedule on the control-room wall. The animals are conditioned to come to it. Teague plans to sound it to recall them. Calloway plans to use the same tone to draw every dinosaur to one place.
 
 **Ash Protocol.** Meridian's site-denial plan, written by Teague to destroy evidence if the program were ever exposed. Demolition charges are set in the Ring and under Paddock Three and the Reptile House. Teague has the abort code. The charges can bring the hill down on the sublevels and the Ring.
 
@@ -73,8 +75,8 @@
 - **Kito:** Zuberi's 3-year-old son, impulsive.
 - **Katya:** Amur tigress, 14. Cautious, deadly, and a mother.
 - **Misha and Dasha:** Katya's yearling cubs.
-- **Gideon:** Bull hippo, 3 tons. Territorial and huge. The lagoon is his.
-- **Old Nile and the crocodiles:** A group of eight Nile crocodiles, the largest called Old Nile.
+- **The hippo bloat (five):** **Gideon**, the bull, 3 tons, territorial and huge; the cows **Hattie**, **Mabel**, and **Pearl**; and **Biscuit**, a 3-year-old subadult. They act as one group, with a bite of about 1,800 psi and tusks.
+- **The crocodiles (eight):** Solitary Nile crocodiles, each guarding its own stretch of shore. The largest is **Old Nile**, about 15 ft. They avoid each other and flee or posture when threatened. They never ambush as a team.
 - **Kofi:** Male reticulated giraffe, 5 years old, 2,800 lb. High-strung, kicks first.
 - **Nanuq:** Male polar bear, 11, about 1,300 lb. Background only.
 

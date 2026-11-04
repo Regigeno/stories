@@ -16,7 +16,7 @@ The investor demo. The cooling plant trips, the doors fail open, and Teague orde
 Mags hides in the feed room as Duchess breaks through and nearly finds her. Imani's trumpet draws Duchess outside. Duchess steps into the sun with no kill yet. Gerry herds the crowd. Imani plants herself between Duchess and the people, and the lions come down off the kopje.
 
 **4. The Okavango Run** (Theo, 2:00 p.m.)
-Hippo Harbor Cruises with eleven passengers, including Rosalind and her daughter Jess. The hippos behave strangely. The lagoon goes quiet, the crocodiles scatter, and something large moves in the drain culvert. The Spinosaurus's sail breaks the surface and the boat takes a hit. Phones are dead, so Theo cannot call anyone.
+Hippo Harbor Cruises with eleven passengers, including Rosalind and her daughter Jess. Theo feels the water tremble through the hull before anyone hears anything. The hippos stop grazing and face the culvert. The solitary crocodiles each slip away from their own stretch of shore. The Spinosaurus enters the lagoon from the drain culvert, sail first, and the boat takes a hit. Phones are dead, so Theo cannot call anyone.
 
 **5. Glass** (Priya, 2:04 p.m.)
 The tunnel is dark and Eddie is keeping 30 people calm. The green steel door in the yard bursts and Jazz enters. Katya meets her. Jazz leaps onto the glass roof and it fails. The first human kill in the book happens in the tunnel (the woman with the coffee cup from chapter 1). Arjun names the animal. Eddie opens the keeper door.
@@ -27,7 +27,7 @@ The tunnel is dark and Eddie is keeping 30 people calm. The green steel door in 
 The lions and the elephant meet Duchess on the open Plains. The pride tries to test and flank her, and Duchess kills them methodically. Zuberi dies. Amara tears out Duchess's right eye before she dies. Imani sets a tusk into Duchess's flank but is crushed and mortally wounded. Zola and Pip retreat into the wrecked barn. Duchess limps off toward the central plaza.
 
 **7. Gideon's Water** (Theo, 2:12 p.m.)
-The boat is caught between the Spinosaurus, Old Nile and the crocodiles, and the bull hippo. Rosalind triages in the middle of it. Jess goes into the water and Rosalind goes after her. Theo steers into the narrows. Six of the eleven passengers die. Five reach the pier.
+The Spinosaurus works along the shore and picks off the territorial crocodiles one by one. Each croc defends its own stretch alone and loses. Old Nile dies within sight of the boat. The boat drifts and is tipped by the Spinosaurus's tail sweep. Rosalind triages in the water and Jess is separated from her. Six of the eleven passengers die. Five reach the pier.
 
 **8. A Pack of One** (Priya, 2:20 p.m.)
 Katya and Jazz fight in the yard. Eddie gets Priya, Arjun, and six others into the keepers' building. Katya mortally wounds Jazz and dies. Eddie holds the door and dies. Jazz, hurt and in pain, hunts the rest. Priya and Arjun escape through the green door into the Ring.
@@ -42,7 +42,7 @@ Calloway comes back down from the east stair. Bao is still in the control room, 
 In the barn, Imani is dying, with Zola and Pip close. Mags hears Calloway's broadcast on the keeper channel. Bev's radio goes silent. Gerry reveals the rail cut under the turntable pit. Mags, Gerry, and about 40 visitors form a plan. Imani dies.
 
 **12. Last Boat** (Theo, 3:15 p.m.)
-The five survivors are on the pier. Spino finishes off Gideon and Old Nile and turns on the pier. Theo draws the Spinosaurus back into the water. Rosalind and Jess die. Theo dies. Spino leaves the lagoon wounded, heading inland.
+The five survivors are on the pier. Spino, with the crocodiles gone, turns toward the pier and walks into Gideon's water. The bloat of five hippos overwhelms it in the shallows. Theo, who knows the hippos' territory, steers Spino toward them on purpose. Spino kills Gideon, Hattie, and Biscuit but is bitten and gored badly. The pier is wrecked in the fight and Rosalind, Jess, and Theo die. Spino walks away in a messy triumph, torn and bleeding, heading inland. Mabel and Pearl survive.
 
 **13. The Quiet Ring** (Priya, 3:50 p.m.)
 In the Ring, Priya and Arjun find the elephant barn's open hatch and Mags's group coming down into it. Gerry shows Arjun the turntable. Jazz, half-blind, follows their scent. Three people die in a short, ugly fight. The rail cut's far gate is jammed and needs time and tools. The group will wait out the afternoon in the pit.
@@ -77,7 +77,8 @@ Imogen follows Atlas below as the tone sounds. Spino, Duchess, Jazz, and Atlas c
 | Katya | 8 | Wounds from Jazz |
 | Eddie | 8 | Jazz |
 | Hugh Ashworth, Bev, Carla | Offscreen, 11 to 13 | Duchess and the crowd |
-| Gideon, Old Nile | 12 | Spinosaurus |
+| Old Nile and the other crocodiles | 7 | Spinosaurus |
+| Gideon, Hattie, Biscuit | 12 | Spinosaurus |
 | Theo, Rosalind, Jess | 12 | Spinosaurus |
 | Three of Mags's group | 13 | Jazz |
 | Bao | 15 | Teague's guards |
@@ -93,6 +94,9 @@ Imogen follows Atlas below as the tone sounds. Spino, Duchess, Jazz, and Atlas c
 
 - Times in chapter headers must be consistent with the timeline above.
 - Four free dinosaurs only: Duchess, Spino, Jazz, Atlas.
+- Scientific accuracy: no cooperative packs, no movie roars. Large animals are felt in the chest before they are heard.
+- Spino is badly wounded after Chapter 12 (torn flank, bite wounds) and moves slowly and heavily from then on.
+- The lagoon has five hippos and eight solitary crocodiles.
 - The feed tone sounds at 18:00 and runs on its own battery.
 - Cell service is dead from 1:53 p.m. Keeper radios work throughout, but nobody on them knows what is happening until Chapter 10.
 - Duchess loses her right eye in Chapter 6.

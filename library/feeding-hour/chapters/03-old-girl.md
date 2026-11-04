@@ -98,6 +98,8 @@ She was behind the produce crates before she had decided to be.
 
 It was the best hiding place in the room, which was not saying much: a corner between the cinderblock wall and a tall rolling cart of carrots and kale, with a gap between the crates just wide enough for one eye. She pressed her back against the block. Her heart was banging so hard that she thought it must be audible.
 
+She felt the next thing before she heard it. It came up through the floor and into her breastbone, a pressure so low and slow that it was less a noise than a fact delivered to her ribs, like standing too near the longest pipe of a church organ. The sweet potatoes jumped in their crate. The hair rose on her arms. The pigeons in the rafters had felt it a second before she did, and that was why they were already gone.
+
 The door at the back of the feed room did not open. It *left*.
 
 The bolts popped like gunshots. The whole door peeled off its frame and flew thirty feet across the barn and rang against the opposite wall, and where it had been, there was a rectangle of hot, wet, orange dark. A smell came out of it. Mags had smelled death before, a dozen dead animals, the kind of death that sits on a keeper's skin. This was not that. This was an old smell. Wet iron and swamp and something sweet and wrong underneath, like a pantry of meat left in the sun.
