@@ -78,7 +78,7 @@ On the far side of the moat, in the shade of the barn, an enormous gray animal t
 
 "She's huge," Arjun breathed.
 
-"That's Mags's girl," said a man next to them, an older guy in a Calder Bay Zoo volunteer vest. "Mags has been with her since the first day. Thirty years. They say if Mags is crying, Imani knows before Mags does."
+"That's Mags's girl," said a man next to them, an older guy in a Calder Bay Zoo volunteer vest who kept thumbing a little steel tally clicker for no reason Priya could see. "Mags has been with her since the first day. Thirty years. They say if Mags is crying, Imani knows before Mags does."
 
 "Is that true?"
 
@@ -184,10 +184,10 @@ She stood all at once, without stretching, which Priya had a feeling was not som
 
 "Okay," Eddie said softly, to nobody. "Okay, Katya. What is it?"
 
-From somewhere deep under the hill, beyond the glass and the grass and the pretzel and the paper-cut sky, something enormous gave a long, low groan, as if the earth itself had finally been asked a question it did not want to answer.
+Priya felt it before she heard it. It came up through the rubber floor and into her breastbone, a pressure too slow and too low to be called a note, the way a bass drum reaches you from a street away. The glass of the tunnel hummed against her shoulder. Her back teeth ached. Beside her a little boy put both hands flat on his chest, puzzled, as if he had swallowed something. Only then, half a second late, did the sound arrive for her ears: a long, low groan from somewhere deep under the hill, as if the earth itself had finally been asked a question it did not want to answer.
 
 Then the lights in the tunnel went out.
 
-Arjun's hand found hers in the dark. It was small and warm and sticky with sugar. Priya looked at the clock on her phone, out of habit, because she was a person who thought it through, and she would remember afterward that she had seen the numbers clearly, white on black, and that the little signal bars beside them had already gone.
+Arjun's hand found hers in the dark. It was small and warm and sticky with sugar. Priya looked at the clock on her phone, out of habit, because she was a person who thought it through, and she would remember afterward that she had seen the numbers clearly, white on black, and that the little signal bars beside them had dropped to a single bar.
 
 It was 1:52.

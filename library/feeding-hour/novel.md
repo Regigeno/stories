@@ -6,7 +6,8 @@ tags: [dinosaurs, zoo, survival, ensemble cast, animal vs animal]
 contentLevel: mature
 contentNotes:
   - Graphic creature violence, including animal deaths
-  - Human deaths on the page, including some in peril to children
+  - Human deaths on the page, including children in peril
+  - A bleak ending in which most of the cast does not survive
   - Strong language
   - No sexual content
 status: in-progress
@@ -17,4 +18,4 @@ It is a crowded Saturday afternoon at Calder Bay Zoo. Seventeen-year-old Priya R
 
 Beneath their feet, a company called Meridian Biologics has been bringing dinosaurs back from extinction in secret. At 1:52 p.m., the power fails and the doors open.
 
-In the next few hours, a Tyrannosaurus will meet a lion pride and an elephant matriarch, a pack of feathered raptors will find a tigress and her cubs, and a Spinosaurus will wade into the hippo lagoon. The people trapped with them have until dark.
+In the next few hours, a Tyrannosaurus will meet a lion pride and an elephant matriarch, a Utahraptor will find a tigress and her cubs, a Spinosaurus will wade into the hippo lagoon, and a runt Brontosaurus will blunder into a giraffe. The gates are locked, the phones are dead, and the people inside have until dark.

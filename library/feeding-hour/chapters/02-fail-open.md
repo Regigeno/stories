@@ -34,7 +34,7 @@ He was a tall man in his early fifties with a calm, handsome face and gray at th
 
 She followed him out of the gallery and into the corridor.
 
-"The demonstration," Teague said. "Phase Two. The pack feeding at two-fifteen. Carrow's committee wants to see the Velociraptors take live prey. They don't want a video. They want to watch it."
+"The demonstration," Teague said. "Phase Two. The Utahraptor feeding at two-fifteen. Carrow's committee wants to see Jazz take live prey. They don't want a video. They want to watch it."
 
 "Warren, we discussed this. I said not today."
 
@@ -78,13 +78,13 @@ The nursery wing lay on the far side of the sublevel, a long white corridor of p
 
 At the end of the hall, a window looked into a space like a half-sized gymnasium, with a pool at one end and a heap of cut ferns at the other. In the corner of that room, sitting on his haunches like an enormous patient dog, was a young Brontosaurus.
 
-He was thirty feet long now, nose to tail. He was five tons. He stood up when he saw her.
+He was twenty feet long now, nose to tail, and not quite two tons, the runt of a species that should have been three times his size. He stood up when he saw her.
 
 "Hello, Atlas," Imogen said, and put her palm flat against the glass.
 
 J-1 came across the floor in four unhurried steps and lowered his long neck until his head, which was about the size of a horse's, hung level with her hand. A soft sound rumbled in his chest. His nostrils flared and fluttered, tasting her through the glass. She had never known whether he recognized her as a person or as a smell, a warm and familiar shape in the dark, but over the three years of his life it had stopped mattering.
 
-He was the first. That was the part no one outside the sublevels would ever know. Before Duchess, before the Velociraptors, before the Spinosaur and the long, slow disaster of the Utahraptor, there had been a sauropod from the Late Jurassic, a hundred and fifty million years old, grown from a scrap of protein and a mountain of mathematics, and he had opened his eyes in a tank on a Tuesday morning and *looked at her*. The program had been about the Cretaceous ever since, a mandate written into the funding, and it was simply an administrative fact that the first animal had come from the wrong age. He was not supposed to exist on the books. He lived behind a door that said STORAGE.
+He was the first. That was the part no one outside the sublevels would ever know. Before Duchess, before the Spinosaur, before the long, slow disaster of the Utahraptor the staff called Jazz because she never hit the same note twice, there had been a sauropod from the Late Jurassic, a hundred and fifty million years old, grown from a scrap of protein and a mountain of mathematics, a scrap that had been used up in the making of him, so that there was no second sample and never would be, and he had opened his eyes in a tank on a Tuesday morning and *looked at her*. The program had been about the Cretaceous ever since, a mandate written into the funding, and it was simply an administrative fact that the first animal had come from the wrong age. He was not supposed to exist on the books. He lived behind a door that said STORAGE.
 
 "Nobody asked you to be the best thing I ever made," she told him. "That's not fair to you."
 
@@ -110,7 +110,7 @@ He took his time. "I think," he said finally, "I can hear the music from here."
 
 * * *
 
-The control room was a dim half-circle of monitors on Sublevel Three, with a window that looked out across the paddock floor and a raised bank of consoles in front of it. Bao Tran sat at the center with his sleeves rolled and two cold coffees at his elbow. He was thirty-one. He had not slept well in a month.
+The control room was a dim half-circle of monitors on Sublevel Three, with a window that looked out across the paddock floor and a raised bank of consoles in front of it. Bao Tran sat at the center with his sleeves rolled and two cold coffees at his elbow. He was thirty-one. He had not slept well in a month. Above the paddock window hung a laminated schedule in his tidy hand, the only warm thing in the room: *FEED TONE 18:00, ALL PADDOCKS.* The animals had been fed to a bell at six every evening since the day they hatched, and not one of them had ever missed it.
 
 "Chiller Two is at a hundred and nine percent of rated capacity," he said, without turning. "It's been over a hundred since one-thirty. The B loop is pulling eleven percent more than I modeled. It's the pumps. I think the pumps are fighting each other."
 
