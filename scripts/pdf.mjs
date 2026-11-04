@@ -1,10 +1,5 @@
-import fs from 'node:fs';
-import path from 'node:path';
 import PDFDocument from 'pdfkit';
-import { loadNovels, root, LEVELS } from './lib.mjs';
-
-const outDir = path.join(root, 'public', 'pdfs');
-fs.mkdirSync(outDir, { recursive: true });
+import { LEVELS } from './lib.mjs';
 
 const FONTS = { regular: 'Times-Roman', italic: 'Times-Italic', bold: 'Times-Bold', boldItalic: 'Times-BoldItalic' };
 
@@ -51,16 +46,16 @@ function paragraph(doc, text, opts) {
   });
 }
 
-function buildPdf(novel) {
+export function renderNovelPdf(novel) {
   const { data, chapters } = novel;
-  const file = path.join(outDir, `${novel.slug}.pdf`);
   const doc = new PDFDocument({
     size: [432, 648],
     margins: { top: 60, bottom: 66, left: 54, right: 54 },
     bufferPages: true,
     info: { Title: data.title, Author: 'The Library', Subject: data.tagline },
   });
-  doc.pipe(fs.createWriteStream(file));
+  const chunks = [];
+  doc.on('data', (c) => chunks.push(c));
 
   doc.font(FONTS.bold).fontSize(30).text(clean(data.title), 0, 190, { align: 'center', width: 432 });
   doc.moveDown(0.8).font(FONTS.italic).fontSize(13).text(clean(data.tagline), 54, doc.y, { align: 'center', width: 324 });
@@ -109,12 +104,8 @@ function buildPdf(novel) {
     doc.font(FONTS.regular).fontSize(9).text(String(i - 1), 0, 648 - 40, { align: 'center', width: 432, lineBreak: false });
   }
   doc.end();
-  return new Promise((res) => doc.on('end', res));
+  return new Promise((res, rej) => {
+    doc.on('end', () => res(Buffer.concat(chunks)));
+    doc.on('error', rej);
+  });
 }
-
-const novels = loadNovels().filter((n) => n.chapters.length > 0);
-for (const n of novels) {
-  await buildPdf(n);
-  console.log(`pdf: ${n.slug}.pdf (${n.chapters.length} chapters)`);
-}
-if (novels.length === 0) console.log('pdf: no novels with chapters yet');

@@ -47,7 +47,7 @@ The five survivors are on the pier. Spino, with the crocodiles gone, turns towar
 **13. The Quiet Ring** (Priya, 3:50 p.m.)
 In the Ring, Priya and Arjun find the elephant barn's open hatch and Mags's group coming down into it. Gerry shows Arjun the turntable. Jazz, half-blind, follows their scent. Three people die in a short, ugly fight. The rail cut's far gate is jammed and needs time and tools. The group will wait out the afternoon in the pit.
 
-**14. The Handler** (Imogen, 4:30 p.m.) [DRAFTED]
+**14. The Handler** (Imogen, 4:30 p.m.) [DRAFTED EARLY, shelved in `dev/drafts/14-the-handler.md` and not published; move it to `chapters/` once chapters 5 to 13 exist]
 Imogen has hidden Atlas in the ruined Reptile House. Atlas is hurt (a bruise and dried blood on his left flank from Kofi) and Imogen has three cracked ribs. Ode's radio and the slate are with her. She feels Duchess's infrasonic call through the floor, and Atlas answers it. Bao reaches her on the keeper channel and explains the hardwired 18:00 tone, including the infrasound layer Imogen designed years ago. Teague has told Calloway the animals will recall themselves at six and only need to be met at the doors. Imogen decides to go below to get to the control room and change or stop the tone. She seals Atlas in the Reptile House main hall behind the lift hall doors and promises to come back, which she knows is a lie. Bao opens the freight lift for her at 4:58.
 
 ## Act III: Feeding Hour (Chapters 15 to 18)

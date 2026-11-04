@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
 
-export const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
+export const root = process.cwd();
 export const libraryDir = path.join(root, 'library');
 
 export const LEVELS = {
