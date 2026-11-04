@@ -18,8 +18,8 @@ Mags hides in the feed room as Duchess breaks through and nearly finds her. Iman
 **4. The Okavango Run** (Theo, 1:58 p.m.) [DRAFTED]
 Hippo Harbor Cruises with eleven passengers, including Rosalind and her daughter Jess. Theo feels the water tremble through the hull before anyone hears anything. The hippos stop grazing and face the culvert. The solitary crocodiles each slip away from their own stretch of shore. The Spinosaurus enters the lagoon from the drain culvert, sail first, and kills the first crocodile, a young female, within sight of the boat. Old Nile flees overland. Spino cuts across the bow and its tail sweep flips the boat, throwing all eleven passengers into the lagoon, including Jess. Phones are dead, but the keeper radio works and Bev has just told every staff member to bring visitors to the center. Phones are dead, so Theo cannot call anyone.
 
-**5. Glass** (Priya, 2:04 p.m.)
-The tunnel is dark and Eddie is keeping 30 people calm. The green steel door in the yard bursts and Jazz enters. Katya meets her. Jazz leaps onto the glass roof and it fails. The first human kill in the book happens in the tunnel (the woman with the coffee cup from chapter 1). Arjun names the animal. Eddie opens the keeper door.
+**5. Glass** (Priya, 1:53 p.m.) [DRAFTED]
+The tunnel is dark and Eddie is keeping 30 people calm. The green steel door in the yard bursts and Jazz enters. Katya meets her. Jazz leaps onto the glass roof and it fails. The first human kill in the book is Denise, the woman with the coffee cup from chapter 1, who dies lifting a boy over the fallen glass. Arjun names the animal (Utahraptor, not Velociraptor). Katya, badly gashed along the ribs, refuses to leave the night house door where her cubs are. Eddie gets about nine people through the flush keeper door into the keepers' corridor, slams it, and Jazz hits it from the other side.
 
 ## Act II: Theaters (Chapters 6 to 14)
 
@@ -30,7 +30,7 @@ The lions and the elephant meet Duchess on the open Plains. The pride tries to t
 The Spinosaurus works along the shore and picks off the territorial crocodiles one by one. Each croc defends its own stretch alone and loses. Old Nile dies within sight of the boat. The boat drifts and is tipped by the Spinosaurus's tail sweep. Rosalind triages in the water and Jess is separated from her. Six of the eleven passengers die. Five reach the pier.
 
 **8. A Pack of One** (Priya, 2:20 p.m.)
-Katya and Jazz fight in the yard. Eddie gets Priya, Arjun, and six others into the keepers' building. Katya mortally wounds Jazz and dies. Eddie holds the door and dies. Jazz, hurt and in pain, hunts the rest. Priya and Arjun escape through the green door into the Ring.
+Katya and Jazz fight in the yard. Eddie, Priya, Arjun, and about eight others (a woman with a baby, a crying man, the boy in the Giants jacket and his father) are in the keepers' building. Katya mortally wounds Jazz and dies. Eddie holds the door and dies. Jazz, hurt and in pain, hunts the rest. Priya and Arjun escape through the green door into the Ring.
 
 **9. The Long Neck** (Imogen, 2:28 p.m.)
 Imogen climbs out of a maintenance hatch near the Giraffe Overlook, tracking Atlas by his collar. Dr. Ode has a dart rifle and six frightened visitors on the platform. Atlas has wandered into Kofi's paddock and Kofi is attacking. Imogen runs in to protect Atlas. Ode darts Kofi. Atlas panics and swings his tail, killing Kofi and sweeping Dr. Ode off the platform. Imogen is left with Ode's radio and rifle, and Atlas.
@@ -68,7 +68,7 @@ Imogen is below, in the control room. Atlas breaks the lift hall bar at six and 
 
 | Name | Dies in | How |
 |---|---|---|
-| Visitors in the tiger tunnel (incl. coffee woman) | 5 | Jazz |
+| Denise and other visitors in the tiger tunnel | 5 | Jazz |
 | Zuberi, Sabi, Amara | 6 | Duchess |
 | Imani | 11 | Wounds from Duchess |
 | Kofi | 9 | Atlas's tail |
