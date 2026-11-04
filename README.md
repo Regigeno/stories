@@ -7,7 +7,7 @@ A browsable digital library of original novels. Concepts are developed by a huma
 ```bash
 npm install
 npm run dev        # http://localhost:4321
-npm run build      # generates PDFs, then builds the site into dist/
+npm run build      # builds the site, including PDFs, into dist/
 npm run wordcount  # per-chapter word counts against the 2,000-word minimum
 ```
 
@@ -19,6 +19,7 @@ library/<novel-slug>/
   chapters/
     01-title.md     # published: one file per chapter
   dev/              # NOT published: concept, bible, outline, continuity notes
+    drafts/         # NOT published: chapters written ahead of schedule
 ```
 
 `novel.md` front matter:

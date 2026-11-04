@@ -24,6 +24,7 @@
 - **African Plains:** a large open yard with a dry moat, a lion kopje (rock pile), and an elephant barn.
 - **Okavango Lagoon:** a big water exhibit with a bloat of five hippos and eight Nile crocodiles, a boat ride (Hippo Harbor Cruises), a pier, and a viewing deck. The crocodiles are solitary and territorial and each holds its own stretch of shore. They do not cooperate with each other or with the hippos.
 - **Taiga Trail:** wooded Amur tiger exhibit with a glass tunnel that runs through it, a glass roof, and a keepers' building on the north side. A green steel door in the yard wall, half hidden in the ferns, is the old pump-room door and leads straight to the Ring. It is separate from the night house, where Katya's cubs are shut in.
+- **Okavango Lagoon geography:** the pier and ticket hut are at the south end; Gideon's Bay is a shallow curve on the east side; an island of dead trees stands in the middle; the drain culvert (12 ft wide, with a steel grate) is at the north end. The boat *Marjorie* is a 28-ft pontoon with a striped canopy and a 12-passenger capacity.
 - **Giraffe Overlook:** a tall feeding platform and a large paddock next to the Plains.
 - **Arctic Coast:** polar bear exhibit with a deep pool. Background only.
 - **The Reptile House:** closed for two years for "renovation". It sits above the lab's service lift and has the new rooftop cooling plant.
@@ -107,10 +108,10 @@ Runs the zoo's operations desk and the keeper radio channels.
 Zoo veterinarian. Fast, unsentimental, loyal to the animals. Carries a dart rifle.
 
 ### Theo Lindqvist, 34
-Pilot of the Okavango boat ride. Ex-merchant mariner. Lost his license over a drinking incident and has been sober for three years. Quiet authority on the water.
+Pilot of the Okavango boat ride (the *Marjorie*). Eleven years on container ships, then lost his license over a drinking incident. Sober for three years, with an ex-wife and a sponsor. His hands go still under pressure. Quiet authority on the water.
 
 ### Rosalind Pike, 49
-Off-duty paramedic on Theo's boat with her teenage daughter **Jess, 15**. Triage is her native language.
+Off-duty paramedic on Theo's boat with her teenage daughter **Jess, 15**, who has two braids and a mouth on her. Triage is her native language. The boat's other passengers: the elderly Ostranders, newlyweds Dev and Hannah, a father (Curtis) with his sons Noah (7) and Eli (10), a student named Marcus (19), and a woman with a camera named Tilly.
 
 ### Dr. Imogen Vale, 46
 Project lead of Halcyon. Brilliant, tired, and complicit. She raised the safety flag and then signed off anyway. She goes after Atlas because he is the only Jurassic animal, and with him dies the chance of ever making another. **Likely survivor.** She faces the book's hardest choice.

@@ -5,10 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/build-pdfs.mjs",
     "build": "astro build",
     "preview": "astro preview",
-    "pdf": "node scripts/build-pdfs.mjs",
     "check": "astro check",
     "wordcount": "node scripts/wordcount.mjs"
   },
