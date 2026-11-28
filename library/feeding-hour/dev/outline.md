@@ -4,11 +4,11 @@ Eighteen chapters of at least 2,000 words each, for about 40,000 words. Timeline
 
 ## Act I: Admission (Chapters 1 to 5)
 
-**1. Admission** (Priya, 12:41 p.m.)
+**1. Admission** (Priya, 12:41 p.m.) [DRAFTED]
 Priya and Arjun arrive for his ninth birthday. Small world details seed the mystery: the closed Reptile House, a hum underfoot, delivery trucks that do not belong. They join Eddie's tiger feeding talk on Taiga Trail. A tremor makes the water in a cup ripple and Katya turn toward the back door.
 
-**2. Fail-Open** (Vale, 1:10 p.m.)
-Underground. The investor demonstration begins and the cooling plant trips. Vale's safety warning about fail-open doors comes true. Teague orders the site-seal. Vale and Calloway are cut off from the zoo. The first paddocks open.
+**2. Fail-Open** (Vale, 1:10 p.m.) [DRAFTED]
+Underground. The investor demonstration begins and the cooling plant trips. Vale's safety warning about fail-open doors comes true. Teague orders the site-seal and refuses to alert the zoo. Calloway defies him and takes Vale toward the east stair. R-1 reaches the elephant barn hatch at 1:55.
 
 **3. Old Girl** (Mags, 1:55 p.m.)
 Imani senses the vibrations before anyone else. The elephant barn's hatch buckles. R-1 climbs out of the barn and onto the Plains. The lions go silent. The crowd at the moat railing does not understand what it is looking at.
